@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="ivan shiryaev">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Добрый картон</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="aside">                                          
+                <nav class="nav">
+                    <div class="container">
+                            <span class="close--nav"></span>                                             
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#product" class="nav__link">
+                                        наша продукция
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#facturing" class="nav__link">
+                                        производство
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#clients" class="nav__link">
+                                        наши клиенты
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#feedback" class="nav__link">
+                                        отзывы
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#contact" class="nav__link">
+                                        контакты
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>                        
+                    </nav>
+        </aside> 
+        <header class="header">
+            <div class="container">                  
+                <div class="header__wrap">
+                    <div class="nav__humberger">                            
+                            <button class="button__humberger">
+                                <span class="button__line"></span>
+                                <span class="button__line"></span>
+                                <span class="button__line"></span>                    
+                            </button>                            
+                        </div>
+                    <div class="header__logo">
+                        <div class="header__logo-wrap">
+                           <div class="logo"></div>
+                        </div>
+                    </div>
+                    <div class="header__rigth">
+                        <div class="header__telephone">
+                            <div class="header__phone">
+                                8 (347) 271-54-28
+                            </div>
+                            <div class="header__phone">
+                                8 (937) 363-30-00
+                            </div>
+                        </div>
+                        <div class="header__call">
+                            <button class="button header__bt">  
+                                <span class="hidden__mobile">Заказать звонок</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="cardboard bg--black">
+            <div class="container">
+                <div class="cardboard__wrap">
+                    <div class="cardboard__pic">
+                        <img src="/img/foto/carbon-1.png" alt="картинка карбона" class="cardboard__img wow pulse hidden__mobile hidden__pc "  data-wow-iteration="5" >
+                    </div>
+                    <div class="cardboard__desc">
+                        <div class="product">
+                            <div class="product__text">
+                                <div class="product__title">
+                                    Производство упаковки из гофрокартона
+                                </div>
+                                <div class="product__subtitle">
+                                    с доставкой по всей России
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__desc">
+                            <div class="form__text">
+                                Получите индивидуальное предложение
+                                на производство и поставку гофропродукции <span class="text-big">
+                                    Образцы упаковки бесплатно!
+                                </span>
+                            </div>
+                            <form action="#" class="form">
+                                <input type="tel" name="" id="" class="form__input-tel" placeholder="Введите номер телефона" required>
+                                <button type="submit" class="button button--no-icon">Оставить заявку!</button>
+                            </form>
+                            <small class="small__text">*Минимальный заказ 500шт</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popup">
+            <div class="popup__inner">
+                <div class="popup__title">
+                    Форма обратной связи  
+                    <span class="close"></span>                  
+                </div>                
+                <div class="popup__desc">
+                    <div class="popup__text">
+                        Получите индивидуальное предложение на производство и поставку изделий
+                    </div>
+                    <div class="popup__text-tel">
+                        Введите ваш номер телефона:
+                    </div>
+                    <form action="/mailer/smart.php" class="popup__form" method="POST" >                    
+                        <input  name="input__tel" type="tel" class="popup__input-tel" placeholder="+996 (xxx) xx-xx-xx" required>
+                        <button  type="submit" class="button button--no-icon poup__btn">Оставить заявку!</button>
+                        <div class="popup__text-small">*Минимальный заказ 500шт</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="numbers">
+                    <div class="numbers__blok ">
+                        <div class="numbers__title">
+                            5 лет
+                        </div>  
+                        <div class="numbers__text">
+                            На рынке изделий из гофрокартона
+                        </div>
+                    </div>
+                    <div class="numbers__blok">
+                        <div class="numbers__title">
+                            до 5 000 000 м<sup class="square">2</sup>
+                        </div>  
+                        <div class="numbers__text">
+                            Ежемесячный объем производства гофрокартона
+                        </div>
+                    </div>
+                    <div class="numbers__blok">
+                        <div class="numbers__title">
+                            4 000 м<sup class="square">2</sup>
+                        </div>  
+                        <div class="numbers__text">
+                            Площадь склада
+                        </div>
+                    </div>
+                </div>
+                <div class="production">
+                    <div class="production__block wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="100">
+                        <div class="production__icon">
+                            <img src="/img/icons/indast.png" alt="иконка производства" class="production__pic">
+                        </div>
+                        <div class="production__desc">
+                            <div class="production__desc-title">
+                                Производство
+                            </div>
+                            <div class="production__desc-text">
+                                4 технологические линии способны выполнить любой заказ любой сложности
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="production__block wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="100">
+                        <div class="production__icon">
+                            <img src="/img/icons/bgbox.png" alt="иконка производства" class="production__pic">
+                        </div>
+                        <div class="production__desc">
+                            <div class="production__desc-title">
+                                Бесплатные образцы
+                            </div>
+                            <div class="production__desc-text">
+                                Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="production__block wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="100">
+                        <div class="production__icon">
+                            <img src="/img/icons/star.png" alt="иконка производства" class="production__pic">
+                        </div>
+                        <div class="production__desc">
+                            <div class="production__desc-title">
+                                Стабильное качество
+                            </div>
+                            <div class="production__desc-text">
+                                Собственная лаборатория контролирует качество на каждом этапе производства
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="production__block wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="100">
+                        <div class="production__icon">
+                            <img src="/img/icons/icons1.png" alt="иконка производства" class="production__pic">
+                        </div>
+                        <div class="production__desc">
+                            <div class="production__desc-title">
+                                Страховой запас
+                            </div>
+                            <div class="production__desc-text">
+                                Можем хранить запас гофропродукции на своих складах и поставлять его партиями
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="production__block wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="100">
+                        <div class="production__icon">
+                            <img src="/img/icons/flex.png" alt="иконка производства" class="production__pic">
+                        </div>
+                        <div class="production__desc">
+                            <div class="production__desc-title">
+                                Флексопечать
+                            </div>
+                            <div class="production__desc-text">
+                                Возможно нанесение вашего  логотипа, текста или манипуляционных знаков
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="production__block wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="100">
+                        <div class="production__icon">
+                            <img src="/img/icons/box.png" alt="иконка производства" class="production__pic">
+                        </div>
+                        <div class="production__desc">
+                            <div class="production__desc-title">
+                                Гидрофобные добавки
+                            </div>
+                            <div class="production__desc-text">
+                                На производстве реализована технология, которая позволяет гофрокартону стать прочнее
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="box">
+            <div class="container">
+                <div class="title" id="product">
+                    наша Продукция
+                </div>
+                <div class="box__wrapper">
+                        <div class="box__block wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="100">
+                                <div class="box__inner-pic">
+                                    <img src="/img/foto/box1.png" alt="картинка бокса" class="box__pic">
+                                </div>
+                                <div class="box__desc">
+                                    <div class="box__title">Гофрокороб 4-х клапанный</div>
+                                    <div class="box__btn">
+                                        <button type="submit" class="button button-o  button--no-icon">Подробнее</button>
+                                        <button type="submit"  class="button  button--no-icon">Получите расчет</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__block wow fadeInRight" data-wow-delay="0.3s"data-wow-offset="100">
+                                <div class="box__inner-pic">
+                                    <img src="/img/foto/box2.png" alt="картинка бокса" class="box__pic">
+                                </div>
+                                <div class="box__desc">
+                                    <div class="box__title">Гофролоток</div>
+                                    <div class="box__btn">
+                                        <button type="submit" class="button button-o  button--no-icon">Подробнее</button>
+                                        <button type="submit"  class="button  button--no-icon">Получите расчет</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__block wow fadeInLeft" data-wow-delay="0.4s" data-wow-offset="100">
+                                <div class="box__inner-pic">
+                                    <img src="/img/foto/box3.png" alt="картинка бокса" class="box__pic">
+                                </div>
+                                <div class="box__desc">
+                                    <div class="box__title">Гофрокороб самосборный (сложная высечка)</div>
+                                    <div class="box__btn">
+                                        <button type="submit" class="button button-o  button--no-icon">Подробнее</button>
+                                        <button type="submit"  class="button  button--no-icon">Получите расчет</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box__block wow fadeInRight" data-wow-delay="0.5s" data-wow-offset="100">
+                                <div class="box__inner-pic">
+                                    <img src="/img/foto/box4.png" alt="картинка бокса" class="box__pic">
+                                </div>
+                                <div class="box__desc">
+                                    <div class="box__title">Листовой гофрокартон</div>
+                                    <div class="box__btn">
+                                        <button type="submit" class="button button-o  button--no-icon">Подробнее</button>
+                                        <button type="submit"  class="button  button--no-icon">Получите расчет</button>
+                                    </div>
+                                </div>
+                            </div>
+                </div> 
+            </div>
+        </section>
+        <section class="offer bg--black">
+            <div class="container">
+                <div class="offer__desc">
+                    <div class="offer__text">
+                        <div class="offer__title">
+                            Получите индивидуальное предложение <span> на производство и поставку изделий</span>
+                        </div>                        
+                    </div>                  
+                    <form action="#" class="form">
+                        <div class="form__wrap-offer">
+                            <label for="offer__check" class="form__label">
+                                    Введите ваш номер телефона:
+                            </label>
+                        <div class="form__inner-wrap">
+                                <input type="tel" name="" id="offer__check" class="form__input-tel form__input-tel--width " placeholder="+996(ХХХ) ХХХ-ХХ-ХХ" required>
+                                <div class="form__btn">
+                                    <button class="button button--no-icon">Оставить заявку!</button>
+                                </div>
+                        </div>
+                            <small class="small__text">
+                                    *Минимальный заказ 500шт
+                            </small>                            
+                        </div>
+                    </form>
+                </div>  
+            </div>
+        </section>
+        <section class="manufacturing">
+            <div class="container">
+                <div class="manufacturing__wrap">
+                    <div class="slaider__wrap">
+                            <div class="slaider">                        
+                                    <div class="slaider__dsc">
+                                        <img src="/img/foto/slaider/01.jpg" alt="картинка для слайдера" class="slaider__pic">
+                                    </div>
+                                    <div class="slaider__dsc">
+                                        <img src="/img/foto/slaider/02.jpg" alt="картинка для слайдера" class="slaider__pic">
+                                    </div>                                         
+                                    <div class="slaider__dsc">
+                                        <img src="/img/foto/slaider/03.jpg" alt="картинка для слайдера" class="slaider__pic">
+                                    </div>                                         
+                                    <div class="slaider__dsc">
+                                        <img src="/img/foto/slaider/04.jpg" alt="картинка для слайдера" class="slaider__pic">
+                                    </div>                                      
+                                    <div class="slaider__dsc">
+                                        <img src="/img/foto/slaider/05.jpg" alt="картинка для слайдера" class="slaider__pic">
+                                    </div>                                      
+                                         
+                            </div>
+                            <div class="slaider__mini  hidden__mobile hidden__pc">                                                
+                                <div class="slaider__inner-pc">
+                                    <img src="/img/foto/slaider/01-mini.jpg" alt="картинка мини слайдера" class="slaider__mini-pic">                          
+                                </div>
+                                <div class="slaider__inner-pc">
+                                    <img src="/img/foto/slaider/02-mini.jpg" alt="картинка мини слайдера" class="slaider__mini-pic">
+                                </div>
+                                <div class="slaider__inner-pc">
+                                    <img src="/img/foto/slaider/03-mini.jpg"  alt="картинка мини слайдера" class="slaider__mini-pic">
+                                </div>
+                                <div class="slaider__inner-pc">
+                                    <img src="/img/foto/slaider/04-mini.jpg" alt="картинка мини слайдера" class="slaider__mini-pic">
+                                </div>                        
+                                <div class="slaider__inner-pc">
+                                    <img src="/img/foto/slaider/05-mini.jpg"alt="картинка мини слайдера" class="slaider__mini-pic">
+                                </div>                        
+                                    
+                            </div>
+                    </div>
+                    <div class="manufacturing__desc">
+                        <div class="manufacturing__titel" id="facturing">
+                            Производство
+                        </div>
+                        <div class="manufacturing__text">
+                                Современное оборудование позволяет произ- водить до 5 миллионов квадратных метров гофрокартона ежемесячно. Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.
+                                Досконально прорабатываем конструкции коро- бов и составы сырья, учитывая условия хранения, транспортировки и производства вашей продукции.Возможно нанесение цветной флексопечати на поверхность коробов.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="container">
+                    <div class="clients__title">
+                            <div class="title" id="clients">
+                                наши клиенты
+                            </div>
+                        </div>
+                        <div class="clients__slaider">
+                            <ul class="clients__slaider-list">
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/1.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/2.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/3.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/4.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/5.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/6.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/7.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/8.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/9.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/10.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/11.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="clients__slaider-item">
+                                    <a href="#" class="clients__slaider-link">
+                                        <div class="clients__inner">
+                                            <img src="/img/clients/12.png" alt="клиенты" class="clients__pic">
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+            </div>    
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__titel">
+                    <div class="title" id="feedback">
+                        отзывы о сотрудничестве
+                    </div>  
+                </div>
+                <div class="feedback__wrapp">
+                    <div class="feedback__slaider">
+                        <div class="feedback__slaider-wrap">
+                            <img src="/img/feedback/1.jpg" alt="отзывы" class="feedback__slaider-pic">
+                        </div>
+                        <div class="feedback__slaider-wrap">
+                            <img src="/img/feedback/2.jpg" alt="отзывы" class="feedback__slaider-pic">
+                        </div>
+                        <div class="feedback__slaider-wrap">
+                            <img src="/img/feedback/3.jpg" alt="отзывы" class="feedback__slaider-pic">
+                        </div>
+                        <div class="feedback__slaider-wrap">
+                            <img src="/img/feedback/4.jpg" alt="отзывы" class="feedback__slaider-pic">
+                        </div>
+                        <div class="feedback__slaider-wrap">
+                            <img src="/img/feedback/5.jpg" alt="отзывы" class="feedback__slaider-pic">
+                        </div>
+                    </div>                     
+                </div> 
+              </div>
+        </section>
+        <section class="contacts">
+            <div class="maps" id="contact">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae46dd6de2d9d7019123333f56d73b274299da082772ede145cde8eacd0d52df6&amp;width=100%25&amp;height=550&amp;lang=ru_RU&amp;scroll=fals"></script>
+                <!-- <iframe class="maps__box" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae46dd6de2d9d7019123333f56d73b274299da082772ede145cde8eacd0d52df6&amp;source=constructor" frameborder="0"></iframe> -->
+            </div>
+            <div class="contacts__desc">
+                <div class="contacts__address-block">
+                    <div class="contacts__title marker_icons">Адрес офиса</div>
+                    <div class="contacts__text">г. Уфа, Проспект октября, 46</div> 
+                    <div class="contacts__title">Адрес склада</div>
+                    <div class="contacts__text">г. Уфа, ул. Майкопская, 65/2</div>                    
+                </div>
+                <div class="contacts__address-tel">
+                    <div class="contacts__title icons__tel">Тел. отдела продаж:</div>
+                    <div class="contacts__text">8 (347) 271-54-28</div> 
+                    <div class="contacts__text">8 (937) 363-30-00</div>
+                </div> 
+                <div class="contacts__address-btn">
+                    <button type="submit" class="button button--no-icon">заказать звонок</button>  
+                </div> 
+                <div class="contacts__address-mail">
+                    <div class="contacts__title icons__email">
+                        Е-mail
+                    </div>
+                    <div class="contacts__text">urals.karton@gmail.com</div>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="scrollup">Наверх</a>
+        <!-- <span class="scrollup"></span>  -->
+        
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">
+                    &copy;Все права защищены
+            </div>
+        </div>
+    </footer>
+    
+    <!-- подключение скриптов -->
+    <script src="/js/plagins/jquery-3.3.1.min.js"></script>
+    <script src="/js/js/popup.js"></script>
+    <script src="/js/plagins/wow.min.js"></script>
+    <script src="/js/js/animait.js"></script>
+    <script src="/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="/js/js/slaider.js"></script>
+    <script src="/js/js/feedback.js"></script>
+    <script src="/js/js/scroling.js"></script>
+    <script src="/js/js/btn-top.js"></script>
+    <script>    
+    $(function(){
+        $('.button__humberger, .nav').on('click', function(){
+                $('.nav').toggleClass('nav__activ');             
+            });
+    });     
+// на закрытие в пустом окне 
+    $(document).click(function(event) {
+        if ($(event.target).closest(".nav__humberger").length ) return;
+        $('.nav').removeClass('nav__activ');
+        event.stopPropagation();
+    });
+    </script>   
+</body>
+</html>
+<!-- тест -->
+
